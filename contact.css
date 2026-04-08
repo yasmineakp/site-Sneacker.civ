@@ -1,0 +1,86 @@
+body {
+    background: #0b0f1a;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* NAVBAR */
+.navbar {
+    background: #111827;
+}
+
+/* HERO */
+.hero-contact {
+    height: 50vh;
+    background: radial-gradient(circle, #1e293b, #0b0f1a);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-text {
+    font-size: 100px;
+    font-weight: 900;
+    opacity: 0.08;
+}
+
+.hero-sub {
+    font-size: 20px;
+    opacity: 0.7;
+}
+
+/* CARTE FORMULAIRE */
+.contact-card {
+    background: #111827;
+    padding: 30px;
+    border-radius: 15px;
+}
+
+/* INPUTS */
+.form-control {
+    background: #0b0f1a;
+    border: 1px solid #1f2937;
+    color: white;
+}
+
+.form-control:focus {
+    background: #0b0f1a;
+    color: white;
+    border-color: #3b82f6;
+    box-shadow: none;
+}
+
+/* BOUTON */
+.btn-contact {
+    background: #3b82f6;
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.btn-contact:hover {
+    background: #2563eb;
+}
+
+/* INFO CARD */
+.info-card {
+    background: #111827;
+    padding: 30px;
+    border-radius: 15px;
+}
+
+/* MAP */
+.map iframe {
+    width: 100%;
+    height: 250px;
+    border-radius: 15px;
+    border: none;
+}
+
+/* FOOTER */
+footer {
+    background: #111827;
+}
